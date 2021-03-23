@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CSS scenery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="top">
+  <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+  <div class="shooting-star"></div>
+  <div class="clouds">
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+  </div>
+  <div class="sun">
+    <div class="sun-glow-1"></div>
+    <div class="sun-glow-2"></div>
+    <div class="sun-glow-3"></div>
+  </div>
+  <div class="pyramids">
+    <div class="pyramid"></div>
+    <div class="pyramid"></div>
+    <div class="pyramid"></div>
+    <div class="pyramid"></div>
+  </div>
+</div>
+<div class="bottom">
+  <div class="main-sun-reflexion">
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+    <div class="reflexion-shape"></div>
+  </div>
+  <div class="small-sun-reflexions">
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+    <div class="reflexion"></div>
+  </div>
+</div>
+<!-- partial -->
+<div id="login">
+  <div id="signin-or-signup">
+    <div id="signin"  onclick="signupinSwitch(1)"  class="selected">SIGN IN</div>
+    <div id="signup"  onclick="signupinSwitch(2)"  class="unselected">SIGN UP</div>
+    <div id="selection1"></div>
+  </div>
+  <div id="fields-1">
+    <div    id="fields-1-text-user"   class="button-login text" >USERNAME</div>
+    <input  id="fields-1-input-user"  class="button-login">
+    <div    id="fields-1-text-pass"   class="button-login text">PASSWORD</div>
+    <input  id="fields-1-input-pass"  class="button-login" type="password">
+    <div    id="fields-1-enter"       class="button-login enter" onclick="signin();">SIGN IN</div>
+    <div    id="fields-1-forgot"      class="button-login" onclick="popup();">Forgot your password?</div>
+  </div>
+  <div id="fields-2">
+    <div    id="fields-2-text-user"   class="button-login text" >EMAIL</div>
+    <input  id="fields-2-input-user"  class="button-login">
+    <div    id="fields-2-text-pass"   class="button-login text">PASSWORD</div>
+    <input  id="fields-2-input-pass"  class="button-login"  type="password">
+    <div    id="fields-2-text-pass2"  class="button-login text">PASSWORD (CONFIRM)</div>
+    <input  id="fields-2-input-pass2" class="button-login" type="password">
+    <div    id="fields-2-enter"       class="button-login enter" onclick="signup2(); signup();">SIGN UP</div>
+  </div>
+  <div id="rings"></div>
+  <div id="loginsuccess"></div>
+  <div id="successtext"></div>
+  <div id="logintextG"></div>
+  <div id="signuptextG"></div>
+  <div id="loginfail"></div>
+  <div id="logintextR"></div>
+  <div id="signuptextR"></div>
+  <div id="failtext"></div>
+  <div id="signupsuccess"><p id="signup-text-1"></p><p id="signup-text-2"></p></div>
+  <div id="signupfailure"></div>
+</div>
+<div id="genie"></div>
+<div id="prodigenie"></div>
+<div id="blanket"></div>
+<div id="notif"></div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
