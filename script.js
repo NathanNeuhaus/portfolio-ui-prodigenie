@@ -411,6 +411,15 @@ function loadingImage( bool, delay ){
   
 }
 
+
+function notifOff(){
+    var el  = document.getElementById("notif"); 
+        el.style.display = "none";
+
+    var loginbox  = document.getElementById("blanket"); 
+        loginbox.style.display = "none";
+}
+
 function dimAlertShow( delay ){
   var el  = document.getElementById("notif"); 
   if( delay === undefined ) delay = 0;
@@ -419,6 +428,10 @@ function dimAlertShow( delay ){
         el.style.display = "block";
         moveY( el, -100, 200, 50, 2  );
     }, delay);
+  
+    el.onclick = function(){
+        notifOff();
+    }
 }
 
 
